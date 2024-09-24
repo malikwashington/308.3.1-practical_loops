@@ -12,7 +12,7 @@ fizzBuzz(100)
 
 const nextPrime = () => {
         const ranNum = Math.floor(Math.random()*99)
-        const key = {0:2, 1:2, 2:3,4:5,5:7}
+        const key = {0:2, 1:2, 2:3,4:5,5:7, 3:5}
         if(ranNum in key) return `Our random number is ${ranNum}, the next prime is ${key[ranNum]}`
         let n = Math.floor(ranNum/6)
         while(n){
